@@ -1,0 +1,283 @@
+.logo{
+    height:60px;
+    width: 120px;
+    border:2px ;
+    border-radius: 8px;
+
+}
+
+.nav-item{
+    padding: 5px;
+    font-weight: 600;
+}
+
+.bang{
+    display:flex;
+    margin:40px;
+    margin-right:500px;
+}
+
+#loc{
+        padding-left : 30px;
+        background: url("https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-location-outline-512.png") no-repeat left;
+        background-size: 20px;
+}
+#ser{
+    padding-left: 30px;
+    background:url("https://cdn0.iconfinder.com/data/icons/business-professional-blue/96/Business_Professional-12-256.png") no-repeat left;
+    background-size: 20px;
+
+}
+
+.box{
+    display: flex;
+    background-size: 50px;
+    justify-content:space-between;
+    gap: 10px;
+    justify-items:center;
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    margin: auto;
+
+}
+.box1{
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-basis: 100%;
+    cursor: pointer;
+    border:2px solid white;
+    border-radius: 6px;
+    border-image:auto;
+}
+
+.im{
+    height: 180px;
+    width:  200px;
+    
+}
+.abc{
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+#view{
+    margin-left:85vw;
+    margin-top: -5vw;
+}
+
+.gang{
+    width: 120px;
+    height: 120px;
+}
+
+.unit{
+    display: flex;
+    gap: 100px;
+    margin-left: 15px ;
+    justify-content: center;
+    align-items: center;
+}
+.box1 h5{
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: medium;
+    text-shadow: black;
+}
+
+.series{
+    height: 180px;
+    width:  250px;
+
+}
+.unit1{
+    display: flex;
+    column-gap: 100px;
+    margin-left: 15px ;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    cursor: pointer;
+}
+.bold{
+    font-weight: 600;
+
+}
+.bold:hover{
+    color: blue;
+}
+
+.consult{
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.bio{
+    display: block;
+    font-weight: 700;
+}
+
+.unit .consult h6:hover{
+    color:blue;
+
+}
+
+.read{
+    height: 180px;
+    width: 310px;
+}
+
+.read1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+section hr{
+    color: black;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    background: #f1f1f1f1;
+  }
+  
+  /* Slides */
+  .mySlides {
+    display: none;
+    padding: 80px;
+    text-align: center;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+  
+  /* The dot/bullet/indicator container */
+  .dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  /* Add a background color to the active dot/circle */
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Add an italic font style to all quotes */
+  q {font-style: italic;}
+  
+  /* Add a blue color to the author */
+  .author {color: cornflowerblue;}
+
+  .dne{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    gap: 70px;
+  }
+
+  .sid{
+    width: 139px;
+    height: 60px;
+    margin-top: -337px;
+    margin-right: -211px;
+    z-index: 1;
+  }
+  .end2{
+    width: 350px;
+    height: 400px;
+    border: 2px solid green;
+  }
+    .ime {
+        margin-top: 20px;
+        display: flex;
+        height: 32px;
+        gap: 20px;
+    }
+
+
+.footer{
+    background-color: blue;
+    padding: 70px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,auto));
+    
+
+}
+
+.foot{
+    width: 25%;
+    padding: 0 15px;
+    margin-left: 110px;
+
+}
+
+
+.last{
+    margin-top: 250px;
+    margin-left: -600px;
+}
+
+.feet{
+    width: 139px;
+    height: 60px;
+    margin-left: 100px;
+
+}
+.foot ul li{
+    list-style: none;
+}
+
+.foot ul li a {
+    text-decoration: none !important;
+
+}
+
+.foot ul li:hover{
+    text-decoration: underline;
+    color: white;
+}
+
